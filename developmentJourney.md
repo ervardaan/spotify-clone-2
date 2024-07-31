@@ -40,3 +40,5 @@
 - 2 divisions for `top links` and `logo`
 - one `unordered list` using 3 items( `Home` and `Search` and `Your Library`)
 - import icons from `react-icons`
+### making playlists and getting them from spotify API
+- make component `playlists` in components folder and add this component in `sidebar` as well
