@@ -8,3 +8,4 @@
 - initialize this login component using rfc to get another boilerplate code to get started
 - make a container  and style it like a div using styled components which we have already installed and need to import `styled` from `styled-components`
 - NOTE: WE ALWAYS `IMPORT AND USE COMPONENTS INSIDE APP.JS` so import the login component in app.js
+- make a button to connect to spotify and add a start image of spotify, then also style them using container and `styled.div` with styling properties given to `container` and `image` and `button`
