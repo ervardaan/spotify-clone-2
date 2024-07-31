@@ -48,4 +48,4 @@
 - we will also be using `axios` to make api calls and retrieve content
 - we use `await and async` cycle to get content from api( mostly `static data` from API)
 - another method which i am not using is to use `promises` rather than `async cycle`
-      - make a call
+  - hello
