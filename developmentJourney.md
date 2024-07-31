@@ -19,3 +19,4 @@
 - we have to click the buttona and with al of the details provided, we will accept terms and conditions of spotify, then we will get a response and out of that, we have to extract the `access token` from the url(response)
 - getting `hash` and `token` from `window.location` inside `app.js` file
         -- try to extract the hash using `useEffect` function which can be imported in `app.js` file
+- split the token by `&` and then get the first element of this array( use `split() method`)
