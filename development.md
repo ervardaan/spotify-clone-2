@@ -5,3 +5,4 @@
     - `yarn add styled-components`
     - `yarn add react-icons`
     - `yarn add axios`
+    - axios is used for making api calls
