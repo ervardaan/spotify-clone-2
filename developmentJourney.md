@@ -30,3 +30,6 @@
 - add dispatch logic in `useEffect` method calling of `app.js`
 
 ### creating spotify component to use API to get data in components folder aside the login
+- check in `app.js` if a token is present- is yes then give spotify component otherwise render login component
+- styling of spotify: `spotify` then `spotify body` then `body contents` and at end `footer`. Add all of these divisions in spotify component
+- 
