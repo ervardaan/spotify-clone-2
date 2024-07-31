@@ -72,3 +72,4 @@
               - make a case for the same in `reducer` and returning corresponding playlists array and action
               - After this stage, we have stored two things-API and PLAYLISTS of current user
           - dispatch `reducerCases.SET_PLAYLISTS` inside `playlists.jsx` component
+          - display playlists as a list( unordered list) inside playlists.jsx component
