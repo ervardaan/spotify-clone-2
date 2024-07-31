@@ -48,4 +48,10 @@
 - we will also be using `axios` to make api calls and retrieve content
 - we use `await and async` cycle to get content from api( mostly `static data` from API)
 - another method which i am not using is to use `promises` rather than `async cycle`
-  - hello
+- follow these steps inside the Playlists component file to get content from api calls
+  - import `useEffect` and `useStateProvider`
+  - import `axios`
+  - get `token` and `dispatch` values in an array from calling `useStateProvider()`
+  - call`useEffect()` method with dependencies of `token` and `dispatch` in an array
+  - Getting data from asycn cycle in `useEffect` method call
+      - hello
