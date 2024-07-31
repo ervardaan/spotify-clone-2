@@ -4,3 +4,4 @@
 - axios for making api calls
 - react
 - yarn
+- contextAPI for state-management
