@@ -73,3 +73,5 @@
               - After this stage, we have stored two things-API and PLAYLISTS of current user
           - dispatch `reducerCases.SET_PLAYLISTS` inside `playlists.jsx` component
           - display playlists as a list( unordered list) inside playlists.jsx component
+          - perform styling of playlists component
+          - add scrollbar for scenario when many playlists are present
