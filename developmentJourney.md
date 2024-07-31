@@ -32,4 +32,6 @@
 ### creating spotify component to use API to get data in components folder aside the login
 - check in `app.js` if a token is present- is yes then give spotify component otherwise render login component
 - styling of spotify: `spotify` then `spotify body` then `body contents` and at end `footer`. Add all of these divisions in spotify component
+- make 4 extra components- `Navbar` and `Sidebar` and `Body` and `Footer`. All of them are `.jsx` files in `components` folder
+- add `sidebar` in `spotify body` and `navbar` in `body` and `body` in `body contents` and `footer` in `footer` division of spotify coomponent
 - 
