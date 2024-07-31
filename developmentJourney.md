@@ -37,3 +37,6 @@
 - define `Container` in `spotify` component and style spotify body and body divisions
 - define `Container` in `sidebar` and `Footer` components as well and style it using `styled.div` in same way we styled `spotify` component
 ### creating sidebar
+- 2 divisions for `top links` and `logo`
+- one `unordered list` using 3 items( `Home` and `Search` and `Your Library`)
+- import icons from `react-icons`
