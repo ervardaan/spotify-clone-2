@@ -42,3 +42,10 @@
 - import icons from `react-icons`
 ### making playlists and getting them from spotify API
 - make component `playlists` in components folder and add this component in `sidebar` as well
+
+### working and getting content from API
+- when we have to work with APIs we use `useEffect`
+- we will also be using `axios` to make api calls and retrieve content
+- we use `await and async` cycle to get content from api( mostly `static data` from API)
+- another method which i am not using is to use `promises` rather than `async cycle`
+-- make a call
