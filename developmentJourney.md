@@ -28,3 +28,5 @@
 - add a case into `reducer.js` file for this SET_TOKEN case and return accordingly
 - use `useStateProvider` in `app.js`
 - add dispatch logic in `useEffect` method calling of `app.js`
+
+### creating spotify component to use API to get data in components folder aside the login
