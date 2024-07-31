@@ -62,7 +62,7 @@
           - then at end, send the method or call this method to send an async request
           - note that `axios.get()` method is used to give this request for the data
           - additional scopes to add in app.js `scopes` arraylist are `playlist-read-private` and `playlist-read-collaborative`
-          - `'Authorization': `Bearer ${token}`` ( actually including back ticks) is the right way
+          - 'Authorization': `Bearer ${token}` ( actually including back ticks) is the right way
           - OR we can use Authorization: "Bearer "+token
           - TROUBLESHOOTING
-              - we have to 
+              - we have to make a new token to get a response( to get it, stop the whole application and restart it to again login via the login page into your spotify account)
