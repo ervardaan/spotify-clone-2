@@ -26,3 +26,5 @@
 - create a `constants.js` file in utils folder to use this token
 - create a reducerCases constant to be exported from this file
 - add a case into `reducer.js` file for this SET_TOKEN case and return accordingly
+- use `useStateProvider` in `app.js`
+- add dispatch logic in `useEffect` method calling of `app.js`
