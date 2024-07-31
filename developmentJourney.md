@@ -58,3 +58,11 @@
           - parameter to axios call is a `MODEL` of the `API` we are using
           - model1 is `getting user's playlists`
           - https://developer.spotify.com/documentation/web-api/reference/get-a-list-of-current-users-playlists
+          - add `url` and `headers containing authorization` to this request we are sending
+          - then at end, send the method or call this method to send an async request
+          - note that `axios.get()` method is used to give this request for the data
+          - additional scopes to add in app.js `scopes` arraylist are `playlist-read-private` and `playlist-read-collaborative`
+          - 'Authorization': `Bearer ${token}` ( actually including back ticks) is the right way
+          - OR we can use Authorization: "Bearer "+token
+          - TROUBLESHOOTING
+              - we have to 
