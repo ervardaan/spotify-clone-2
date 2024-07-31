@@ -6,3 +6,6 @@
     - `yarn add react-icons`
     - `yarn add axios`
     - axios is used for making api calls
+
+  ## starting application
+  - `yarn start`
