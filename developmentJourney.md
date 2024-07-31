@@ -10,3 +10,8 @@
 - NOTE: WE ALWAYS `IMPORT AND USE COMPONENTS INSIDE APP.JS` so import the login component in app.js
 - make a button to connect to spotify and add a start image of spotify, then also style them using container and `styled.div` with styling properties given to `container` and `image` and `button`
 - create a handler for button clicking- connect this `handler` to actual logging in to the spotify application
+- Things to add inside the handler for authorization
+      - `clientID` which is a unique id to every spotify developer user who makes an account
+      - `redirectUrl` which is localhost:3000
+      - `apiUrl` which is link to authorize page of spotify
+      - `scope`
