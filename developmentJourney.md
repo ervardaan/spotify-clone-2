@@ -71,3 +71,4 @@
               - make a SET_PLAYLISTS constant in `constants` file
               - make a case for the same in `reducer` and returning corresponding playlists array and action
               - After this stage, we have stored two things-API and PLAYLISTS of current user
+          - dispatch `reducerCases.SET_PLAYLISTS` inside `playlists.jsx` component
