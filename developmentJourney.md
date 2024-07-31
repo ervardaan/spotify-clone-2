@@ -67,3 +67,7 @@
           - TROUBLESHOOTING
               - we have to make a new token to get a response( to get it, stop the whole application and restart it to again login via the login page into your spotify account)
           - get playlists and store them in reducer inside `Constants.js` file
+          - STEPS to store
+              - make a SET_PLAYLISTS constant in `constants` file
+              - make a case for the same in `reducer` and returning corresponding playlists array and action
+              - After this stage, we have stored two things-API and PLAYLISTS of current user
