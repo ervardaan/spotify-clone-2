@@ -17,3 +17,5 @@
       - `scope`
 - getting access token for our app by using the client id
 - we have to click the buttona and with al of the details provided, we will accept terms and conditions of spotify, then we will get a response and out of that, we have to extract the `access token` from the url(response)
+- getting `hash` and `token` from `window.location` inside `app.js` file
+        - try to extract the hash using `useEffect` function which can be imported in `app.js` file
