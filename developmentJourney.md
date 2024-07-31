@@ -21,3 +21,6 @@
         -- try to extract the hash using `useEffect` function which can be imported in `app.js` file
 - split the token by `&` and then get the first element of this array( use `split() method`)
 - then do another split of this string by `=` and get second element of this array we get
+
+### using token
+- create a `constants.js` file in utils folder to use this token
