@@ -34,4 +34,6 @@
 - styling of spotify: `spotify` then `spotify body` then `body contents` and at end `footer`. Add all of these divisions in spotify component
 - make 4 extra components- `Navbar` and `Sidebar` and `Body` and `Footer`. All of them are `.jsx` files in `components` folder
 - add `sidebar` in `spotify body` and `navbar` in `body` and `body` in `body contents` and `footer` in `footer` division of spotify coomponent
+- define `Container` in `spotify` component and style spotify body and body divisions
+- define `Container` in `sidebar` component as well and style it using `styled.div` in same way we styled `spotify` component
 - 
