@@ -66,3 +66,4 @@
           - OR we can use Authorization: "Bearer "+token
           - TROUBLESHOOTING
               - we have to make a new token to get a response( to get it, stop the whole application and restart it to again login via the login page into your spotify account)
+          - get playlists and store them in reducer inside `Constants.js` file
