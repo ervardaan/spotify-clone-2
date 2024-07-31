@@ -54,4 +54,6 @@
   - get `token` and `dispatch` values in an array from calling `useStateProvider()`
   - call`useEffect()` method with dependencies of `token` and `dispatch` in an array
   - Getting data from asycn cycle in `useEffect` method call
-      - hello
+      - make async function `getPlaylistData()` and get a response from axios inside it
+          - parameter to axios call is a `MODEL` of the `API` we are using
+          - 
