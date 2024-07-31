@@ -7,3 +7,4 @@
 - create new folder components in src called `components` and then make 1st component called `Login.jsx`
 - initialize this login component using rfc to get another boilerplate code to get started
 - make a container  and style it like a div using styled components which we have already installed and need to import `styled` from `styled-components`
+- NOTE: WE ALWAYS `IMPORT AND USE COMPONENTS INSIDE APP.JS` so import the login component in app.js
