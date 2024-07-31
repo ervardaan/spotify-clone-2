@@ -56,4 +56,5 @@
   - Getting data from asycn cycle in `useEffect` method call
       - make async function `getPlaylistData()` and get a response from axios inside it
           - parameter to axios call is a `MODEL` of the `API` we are using
-          - 
+          - model1 is `getting user's playlists`
+          - https://developer.spotify.com/documentation/web-api/reference/get-a-list-of-current-users-playlists
