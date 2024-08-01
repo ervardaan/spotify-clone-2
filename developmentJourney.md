@@ -97,5 +97,9 @@
         - make another method to get userInfo( make two properties of userId and userName) from the data variable we got earlier and use `dipatch` service with type and userInfo
 ![image](https://github.com/user-attachments/assets/87905b24-22e9-478a-a155-e9c8201ca40d)
 
+### working on Navbar definition and styling
+- add divisions for search bar and avatar( each with FaSearch and CgProfile from `react-icons`)
+- style the divisions using `styled.div` for `Container` tag
+
   
 
