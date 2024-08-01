@@ -75,3 +75,15 @@
           - display playlists as a list( unordered list) inside playlists.jsx component
           - perform styling of playlists component
           - add scrollbar for scenario when many playlists are present
+### developing Navbar
+- make another api call to get user data for the navbar-again follow same steps to `get api data`
+- same template we copy from `playlists` and apply in `spotify` to get data for `navbar`
+- ` const [{token},dispatch]=useStateProvider();
+  useEffect(()=>{
+    const getUserInfo=async()=>{
+      const {data}=await axios.get()
+    }
+
+  },[dispatch,token]);`
+  
+
