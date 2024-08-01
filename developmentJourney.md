@@ -89,5 +89,7 @@
                 - url
                 - headers
                     - Authorization: "Bearer "+token
+            - console and print this data variable to show us the data received by making call
+        - call this `async function` to call the api
   
 
