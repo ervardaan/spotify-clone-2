@@ -94,5 +94,6 @@
     - make another constant called `SET_USER` to store this 3rd type of data we fetch from api( store in `constants.js` file)
     - make a case in `reducer.js` file with `SET_USER` and return an action of `userInfo`
     - go back to `spotify.jsx` component and add this new data( user info)
+        - make another method to get userInfo( make two properties of userId and userName) from the data variable we got earlier and use `dipatch` service with type and userInfo
   
 
