@@ -84,5 +84,10 @@
     - call useEffect method with `token` and `dispatch` dependencies
         - make a function inside useEffect() method  which does `asynchronous await  cycle`
             -  make a constatnt data variable which uses `axios` to get `api data` using `get() method`
+            -  2nd api used: https://developer.spotify.com/documentation/web-api/reference/get-current-users-profile
+            -  parameters in api call for `axios.get() method`
+                - url
+                - headers
+                    - Authorization: "Bearer "+token
   
 
