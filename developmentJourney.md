@@ -78,12 +78,11 @@
 ### developing Navbar
 - make another api call to get user data for the navbar-again follow same steps to `get api data`
 - same template we copy from `playlists` and apply in `spotify` to get data for `navbar`
-- ` const [{token},dispatch]=useStateProvider();
-  useEffect(()=>{
-    const getUserInfo=async()=>{
-      const {data}=await axios.get()
-    }
-
-  },[dispatch,token]);`
+- steps are
+    - import useEffect
+    - get token and dispatch from useStateProvider()
+    - call useEffect method with `token` and `dispatch` dependencies
+        - make a function inside useEffect() method  which does `asynchronous await  cycle`
+            -  make a constatnt data variable which uses `axios` to get `api data` using `get() method`
   
 
