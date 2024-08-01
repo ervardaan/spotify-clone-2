@@ -95,5 +95,7 @@
     - make a case in `reducer.js` file with `SET_USER` and return an action of `userInfo`
     - go back to `spotify.jsx` component and add this new data( user info)
         - make another method to get userInfo( make two properties of userId and userName) from the data variable we got earlier and use `dipatch` service with type and userInfo
+![image](https://github.com/user-attachments/assets/87905b24-22e9-478a-a155-e9c8201ca40d)
+
   
 
