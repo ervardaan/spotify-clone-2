@@ -160,6 +160,9 @@
       - add headerBackground to its body function as a parameter
       - add headerBackground as a property to Container tag in the return statement
       - add it to styling of Container as well and style it similar to that of Navbar
+#### converting milliseconds data to seconds for display
+- make a method outside of return statement and useEffect() method which has logic to convert milliseconds to minutes and seconds and return a string `minutes:seconds`
+- in `duration` span of the return statement( which is the last thing we display in a div), we call this function with the required `duration` as a parameter
 
 
 
