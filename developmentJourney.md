@@ -189,6 +189,9 @@
     - go to reducer.js and add a case for this property we have added o Constants.js file
         - add a constant variable currentlyPlaying and set it to null
         - now add the case for `SET_PLAYING` reducerCases case
+        - return `state` and `currentlyPlaying:action.currentlyPlaying` from this case
+- go to current track to show this actual information
+    - if response's data is not empty, then get currentplaying item's properties
 
 
 
