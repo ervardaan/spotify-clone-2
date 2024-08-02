@@ -151,6 +151,8 @@
     - go to that tag in return statement which has className=`body`
     - use ref property on this tag like `ref={bodyRef} onScroll={bodyScrolled}`
     - set navbar and body tags in spotify component with `navBackground` and `headerBackground`
+      ![image](https://github.com/user-attachments/assets/a81123b0-799a-4983-9c7c-ff0281f636ad)
+
 
 
   
