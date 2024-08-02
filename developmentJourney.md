@@ -140,6 +140,10 @@
 #### styling while scrolling the playlist List inside body
 - go to spotify.jsx file
 - use `useRef and useState hooks` so import them alongside useEffect hook from react
+- create two state constants which use useState()
+    - navBackground and setNavBackground
+    - headerBackground and setHeaderBackground
+- make another method before `useEffect()` method in this file
 
 
   
