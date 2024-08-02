@@ -132,6 +132,8 @@
     - now in depenency array of useEffect, add token, dispatch, and `selectedPlaylistId`
     - now when using `useStateProvider` before calling useEffect method, get token, dispatch, and `selectedPlaylist`
     - also import `reducerCases` from Constants.js file
+#### presenting playlist data inside body
+- check if `selectedPlaylist is not null` and if yes then use display tags `<> and </>`
 
 
   
