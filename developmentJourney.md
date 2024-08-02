@@ -144,6 +144,9 @@
     - navBackground and setNavBackground
     - headerBackground and setHeaderBackground
 - make another method before `useEffect()` method in this file
+- conditions for setting these values lie in this method
+    - if `bodyRef.current.scrollTop>=30` then setNavBackground=true else false
+    - if `bodyRef.current.scrollTop>=30` then setHeaderBackground=true else false
 
 
   
