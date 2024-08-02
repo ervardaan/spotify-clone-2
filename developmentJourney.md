@@ -105,7 +105,8 @@
 -  create container with `styled.div` and replace the previous div with `Container`
 -  convert body to `export default function type` so we don't have to export it explicitly
 -  fetch data from API inside the `body function`
-    - 
+    - import `useStateProvider` from `StateProvider` class
+    - get token and dispatch variables from calling `useStateProvider()` method
 
 
   
