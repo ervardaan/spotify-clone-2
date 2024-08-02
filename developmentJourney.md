@@ -183,6 +183,7 @@
             - after getting the response in the variable, we console it to see its value
         - call this method inside the `useEffect() method`
     - give token and dispatch service to useEffect as dependencies in its dependencies array
+- add this `CurrentTrack` component into Footer inside its Container tag and also import it
 
 
 
