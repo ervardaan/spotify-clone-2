@@ -126,6 +126,7 @@
     - then we make a case in reducer cases inside `reducer.js` file and give it an action
         - make a const `selectedPlaylist` and set i to null in `reducer.js` file
         - now make a case for it( case is `SET_PLAYLIST`)
+            - return `state as ...state` and `selectedPlaylist:action.selectedPlaylist`
 
 
   
