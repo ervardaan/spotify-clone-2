@@ -180,6 +180,9 @@
             - make a `response` variable which stores the repsonse from the api when we call the `get() method from axios` using `await`
             - api to be used: https://developer.spotify.com/documentation/web-api/reference/get-the-users-currently-playing-track
             - send url and headers(only Authorization) as request parameters to get() method
+            - after getting the response in the variable, we console it to see its value
+        - call this method inside the `useEffect() method`
+    - give token and dispatch service to useEffect as dependencies in its dependencies array
 
 
 
