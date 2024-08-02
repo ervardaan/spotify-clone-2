@@ -103,7 +103,9 @@
 ### designing body
 -  import styled and AiFilledClockCircle, and useEffect
 -  create container with `styled.div` and replace the previous div with `Container`
--  
+-  convert body to `export default function type` so we don't have to export it explicitly
+-  fetch data from API inside the `body function`
+    - 
 
 
   
