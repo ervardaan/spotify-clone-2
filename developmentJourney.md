@@ -127,6 +127,11 @@
         - make a const `selectedPlaylist` and set i to null in `reducer.js` file
         - now make a case for it( case is `SET_PLAYLIST`)
             - return `state as ...state` and `selectedPlaylist:action.selectedPlaylist`
+    - now dispatch after completing the `selectedPlaylist` const decaration( we dispatch inside the `getInitialPlaylist` method)
+        - type is `reducerCases.SET_PLAYLIST` and we also give `selectedPlaylist`
+    - now in depenency array of useEffect, add token, dispatch, and `selectedPlaylistId`
+    - now when using `useStateProvider` before calling useEffect method, get token, dispatch, and `selectedPlaylist`
+    - also import `reducerCases` from Constants.js file
 
 
   
