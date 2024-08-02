@@ -120,6 +120,8 @@
     - At end of getting this response in our variable, we console it and then the `async function` ends.
     - After the async function ends inside the useEffect() method, we `call the async function`
     - now we close the curly braces for useEffect method and provide the dependency array
+        - make another method inside `getInitialPlaylist()` method called `selectedPlaylist()`
+        - 
 
 
   
