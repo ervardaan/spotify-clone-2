@@ -184,6 +184,11 @@
         - call this method inside the `useEffect() method`
     - give token and dispatch service to useEffect as dependencies in its dependencies array
 - add this `CurrentTrack` component into Footer inside its Container tag and also import it
+- store this data about currently playing track into the reducer
+    - go to constants.js file and add another property to reducerCases array
+    - go to reducer.js and add a case for this property we have added o Constants.js file
+        - add a constant variable currentlyPlaying and set it to null
+        - now add the case for `SET_PLAYING` reducerCases case
 
 
 
