@@ -115,6 +115,8 @@
     - inside the `async function` we add a response variable to use `axios.get() method` using `await and async cycle`
     - we are using the following API yo get this playlist from its ID
         - https://developer.spotify.com/documentation/web-api/reference/get-playlist
+    - for url, we add additional `playlist id` using ${} after the standard url
+    - for headers. we pass `Authoriztation`-both url and headers are part of get() method
 
 
   
