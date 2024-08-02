@@ -163,6 +163,9 @@
 #### converting milliseconds data to seconds for display
 - make a method outside of return statement and useEffect() method which has logic to convert milliseconds to minutes and seconds and return a string `minutes:seconds`
 - in `duration` span of the return statement( which is the last thing we display in a div), we call this function with the required `duration` as a parameter
+#### style scrollbar for tracks of the playlist
+- go to playlists component and copy the cody for styling its scrollbar and make some modifications in it accordingly
+- go to `spotify component` and add this to its `body tag` inside Container.styled
 
 
 
