@@ -111,6 +111,10 @@
     - make an async function inside `useEffect() method` called `getInitialPlaylist
     - Inside this async function, we havr to provide details of one playlist
         - go to reducer.js and paste `id of playlist(some random playlist we have)` into a variable named `selectedPlaylistId`
+        - now extract this variable alongside `token` using `useStateProvider` in body.jsx
+    - inside the `async function` we add a response variable to use `axios.get() method` using `await and async cycle`
+    - we are using the following API yo get this playlist from its ID
+        - https://developer.spotify.com/documentation/web-api/reference/get-playlist
 
 
   
