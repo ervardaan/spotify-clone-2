@@ -100,6 +100,8 @@
 ### working on Navbar definition and styling
 - add divisions for search bar and avatar( each with FaSearch and CgProfile from `react-icons`)
 - style the divisions using `styled.div` for `Container` tag
+### designing body
+
 
   
 
