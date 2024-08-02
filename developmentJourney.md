@@ -136,6 +136,7 @@
 - check if `selectedPlaylist is not null` and if yes then use display tags `<> and </>`
 - 2 divisions for playlist name and images and then make divs if needed for details and type/title/description etc- give details eclosed in `{}` correspondingly to each div
 - display list of objects in the playlist-make another division for it separately
+- now style everything
 
 
   
