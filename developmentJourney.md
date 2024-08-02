@@ -152,6 +152,10 @@
     - use ref property on this tag like `ref={bodyRef} onScroll={bodyScrolled}`
     - set navbar and body tags in spotify component with `navBackground` and `headerBackground`
       ![image](https://github.com/user-attachments/assets/a81123b0-799a-4983-9c7c-ff0281f636ad)
+  - make corresponding changes to `navbar` component as well
+      - add {navBackground} to fundion Navbar as a parameter
+      - add navBackground now to Container as a property
+      - now add it to container.styled for styling and add a corresponding background color
 
 
 
