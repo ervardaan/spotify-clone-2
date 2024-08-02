@@ -193,6 +193,8 @@
 - go to current track to show this actual information
     - if response's data is not empty, then get currentplaying item's properties- all of this has to be done inside the aycn method of CurrentTrack component
     - dispatch reducerCases.SET_PLAYING along with `setPlaying` variable we just defined with current playing item's properties
+    - import currentPlaying in CurrentTrack component alongside token in useStateProvider call
+    - now use this currentPlaying inside Container to display using smoe div tags
 
 
 
