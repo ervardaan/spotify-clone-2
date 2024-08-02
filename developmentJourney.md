@@ -170,6 +170,9 @@
 - style it in Container styled.div section
 ### showcase current track's information in footer
 - create a new component called `CurrenTrack.jsx` and do rafce to get template code
+    - import styled, useEffect into it
+    - change it to become default function and export it
+    - initialize a Container and use styled.div
 
 
 
