@@ -107,6 +107,10 @@
 -  fetch data from API inside the `body function`
     - import `useStateProvider` from `StateProvider` class
     - get token and dispatch variables from calling `useStateProvider()` method
+    - call `useEffect` method with 2 dependencies of `token and dispatch` in dependencies array
+    - make an async function inside `useEffect() method` called `getInitialPlaylist
+    - Inside this async function, we havr to provide details of one playlist
+        - go to reducer.js and paste `id of playlist(some random playlist we have)` into a variable named `selectedPlaylistId`
 
 
   
