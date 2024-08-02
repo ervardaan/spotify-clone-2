@@ -192,6 +192,7 @@
         - return `state` and `currentlyPlaying:action.currentlyPlaying` from this case
 - go to current track to show this actual information
     - if response's data is not empty, then get currentplaying item's properties- all of this has to be done inside the aycn method of CurrentTrack component
+    - dispatch reducerCases.SET_PLAYING along with `setPlaying` variable we just defined with current playing item's properties
 
 
 
