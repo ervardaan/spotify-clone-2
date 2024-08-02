@@ -117,6 +117,9 @@
         - https://developer.spotify.com/documentation/web-api/reference/get-playlist
     - for url, we add additional `playlist id` using ${} after the standard url
     - for headers. we pass `Authoriztation`-both url and headers are part of get() method
+    - At end of getting this response in our variable, we console it and then the `async function` ends.
+    - After the async function ends inside the useEffect() method, we `call the async function`
+    - now we close the curly braces for useEffect method and provide the dependency array
 
 
   
