@@ -122,6 +122,10 @@
     - now we close the curly braces for useEffect method and provide the dependency array
         - make another method inside `getInitialPlaylist()` method called `selectedPlaylist()`
         - ![image](https://github.com/user-attachments/assets/b5e0a2a0-7bf4-4609-814f-c0e0bacc8610)
+    - to export all of these `playlist details` we make a constant in `constants file`
+    - then we make a case in reducer cases inside `reducer.js` file and give it an action
+        - make a const `selectedPlaylist` and set i to null in `reducer.js` file
+        - now make a case for it( case is `SET_PLAYLIST`)
 
 
   
