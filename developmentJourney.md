@@ -156,6 +156,10 @@
       - add {navBackground} to fundion Navbar as a parameter
       - add navBackground now to Container as a property
       - now add it to container.styled for styling and add a corresponding background color
+  - go to `body component` and add this styling to it
+      - add headerBackground to its body function as a parameter
+      - add headerBackground as a property to Container tag in the return statement
+      - add it to styling of Container as well and style it similar to that of Navbar
 
 
 
