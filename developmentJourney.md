@@ -101,6 +101,9 @@
 - add divisions for search bar and avatar( each with FaSearch and CgProfile from `react-icons`)
 - style the divisions using `styled.div` for `Container` tag
 ### designing body
+-  import styled and AiFilledClockCircle, and useEffect
+-  create container with `styled.div` and replace the previous div with `Container`
+-  
 
 
   
