@@ -166,6 +166,10 @@
 #### style scrollbar for tracks of the playlist
 - go to playlists component and copy the cody for styling its scrollbar and make some modifications in it accordingly
 - go to `spotify component` and add this to its `body tag` inside Container.styled
+### design footer
+- style it in Container styled.div section
+### showcase current track's information in footer
+- create a new component called `CurrenTrack.jsx` and do rafce to get template code
 
 
 
