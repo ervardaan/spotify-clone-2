@@ -178,6 +178,8 @@
         - use an arrow function for definition
         - make a new method which gets `asynchronous api data` using `await async cycle`
             - make a `response` variable which stores the repsonse from the api when we call the `get() method from axios` using `await`
+            - api to be used: https://developer.spotify.com/documentation/web-api/reference/get-the-users-currently-playing-track
+            - send url and headers(only Authorization) as request parameters to get() method
 
 
 
