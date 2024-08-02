@@ -137,6 +137,9 @@
 - 2 divisions for playlist name and images and then make divs if needed for details and type/title/description etc- give details eclosed in `{}` correspondingly to each div
 - display list of objects in the playlist-make another division for it separately
 - now style everything
+#### styling while scrolling the playlist List inside body
+- go to spotify.jsx file
+- use `useRef and useState hooks` so import them alongside useEffect hook from react
 
 
   
