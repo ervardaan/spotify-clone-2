@@ -150,6 +150,7 @@
 - use this `bodyRef` for the div tag in the `spotify` component
     - go to that tag in return statement which has className=`body`
     - use ref property on this tag like `ref={bodyRef} onScroll={bodyScrolled}`
+    - set navbar and body tags in spotify component with `navBackground` and `headerBackground`
 
 
   
