@@ -173,6 +173,11 @@
     - import styled, useEffect into it
     - change it to become default function and export it
     - initialize a Container and use styled.div
+    - get token and dispatch service fro useStateProvider() and also import it to use it
+    - call `useEffect()` method to get data about currently running track via api and axios
+        - use an arrow function for definition
+        - make a new method which gets `asynchronous api data` using `await async cycle`
+            - make a `response` variable which stores the repsonse from the api when we call the `get() method from axios` using `await`
 
 
 
