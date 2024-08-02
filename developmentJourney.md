@@ -147,6 +147,9 @@
 - conditions for setting these values lie in this method
     - if `bodyRef.current.scrollTop>=30` then setNavBackground=true else false
     - if `bodyRef.current.scrollTop>=30` then setHeaderBackground=true else false
+- use this `bodyRef` for the div tag in the `body` component
+    - go to that tag in return statement which has className=`body`
+    - use ref property on this tag like `ref={bodyRef} onScroll={bodyScrolled}`
 
 
   
