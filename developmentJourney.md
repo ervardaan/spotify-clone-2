@@ -224,9 +224,11 @@
     - use `await` for `axios.post()` method as we give data to server rather than take from it
         - first parameter to POST request is `url` of api call- we ask server to change songs
         - second parameter is headers which contain `Authorization: Bearer <token of user>`
+        - for post requests, we also give a middle parameter called body which is left empty using {}
     - log the response variable inside the async method to show its value we get from API
     - now dispatch the value of playerState using `dispatch()` method inside this async func
-    - 
+    - NOTE: if using free version of spotify, then we can't use next and previous api references and so will get an error on screen
+        - to stop this error from showing up on screen, we wrap whole changeTrack() method inside a try and catch block which catches any errors given by this method's asynchronous call
 
 
 
