@@ -210,6 +210,13 @@
             - return `state as ...state` and `playerState:action.playerState`
     - get playerState using `useStateProvider()` inside playercontrols.jsx component
     - then style return Container tag with required div tag for presentation and with icons
+    - style player controls using style.div for Container according to your choice
+#### actually pausing songs inside clone and linking details to spotify back
+- create a method called `changeTrack()` in playerControls defult function of playercontrols
+- this method is an async function but we don't wrap this method inside `useEffect()` method
+
+- this change track method is hooked to the div tag which tackles clinking previous button( so use `onClick` property on this tag so that when it gets clicked, the method is called)
+- do the same for next button and give a different parameter in both calls to the method
 
 
 
