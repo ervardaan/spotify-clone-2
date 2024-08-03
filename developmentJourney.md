@@ -208,6 +208,8 @@
     - go to constants and declare `SET_PLAYER_STATE` constant in `reducerCases` array
     - now make a case for it( case is `SET_PLAYER_STATE`)
             - return `state as ...state` and `playerState:action.playerState`
+    - get playerState using `useStateProvider()` inside playercontrols.jsx component
+    - then style return Container tag with required div tag for presentation and with icons
 
 
 
