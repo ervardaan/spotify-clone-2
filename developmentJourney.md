@@ -230,8 +230,15 @@
     - NOTE: if using free version of spotify, then we can't use next and previous api references and so will get an error on screen
         - to stop this error from showing up on screen, we wrap whole changeTrack() method inside a try and catch block which catches any errors given by this method's asynchronous call
 #### adding play/pause functionality
-- go to playercontrols.jsx and add a method after the response from api(using currently playing),which uses `async await cycle`
+- go to playercontrols.jsx and add a method after the changeTrack method,right before the return statement, which also uses `async await cycle`
     - make a const variable `state` and set  it to some value based on value of playerState: it can be pause or play
+    - make a response variable for api response
+    - API to be used: https://developer.spotify.com/documentation/web-api/reference/pause-a-users-playback
+    - https://developer.spotify.com/documentation/web-api/reference/start-a-users-playback
+        - use `await axios.get() method` to give request of type PUT
+        - give `url` and `body which is empty` and `headers including Authorization`
+    - console log the repsonse
+- dispatch the `playerState` after the method ends
 
 
 
