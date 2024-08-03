@@ -250,9 +250,12 @@
     - use put request type and give mandatory `query parameters for volume`
     - style the volume component using Container=styled.div
 ### change playlist in body on clicking by user in sidebar
+- add `SET_PLAYLIST_ID` in constants
+- add a case for it in reducer.js file
 - make another method outside of useEffect() method in `playlists.jsx component`
 - give it parameter `selectedPlaylistId`
 - dispatch the type of reducerCases.SET_PLAYLIST_ID and `selectedPlaylistId`
+- inside the list tag of unordered list in Container, use onClick() to call this method
 
 
 
