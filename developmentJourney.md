@@ -220,9 +220,9 @@
 - using api
     - api used: https://developer.spotify.com/documentation/web-api/reference/skip-users-playback-to-previous-track
     - https://developer.spotify.com/documentation/web-api/reference/skip-users-playback-to-next-track
-    - create a `response` variable which stores the api response from `axios` get() method
-    - use `await` for `axios.get()` method
-        - first parameter to GET request is `url` of api call
+    - DON'T create a `response` variable which stores the api response
+    - use `await` for `axios.post()` method as we give data to server rather than take from it
+        - first parameter to POST request is `url` of api call- we ask server to change songs
         - second parameter is headers which contain `Authorization: Bearer <token of user>`
     - log the response variable inside the async method to show its value we get from API
     - now dispatch the value of playerState using `dispatch()` method inside this async func
