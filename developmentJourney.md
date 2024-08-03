@@ -229,6 +229,9 @@
     - now dispatch the value of playerState using `dispatch()` method inside this async func
     - NOTE: if using free version of spotify, then we can't use next and previous api references and so will get an error on screen
         - to stop this error from showing up on screen, we wrap whole changeTrack() method inside a try and catch block which catches any errors given by this method's asynchronous call
+#### adding play/pause functionality
+- go to playercontrols.jsx and add a method after the response from api(using currently playing),which uses `async await cycle`
+    - make a const variable `state` and set  it to some value based on value of playerState: it can be pause or play
 
 
 
