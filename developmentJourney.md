@@ -256,6 +256,10 @@
 - give it parameter `selectedPlaylistId`
 - dispatch the type of reducerCases.SET_PLAYLIST_ID and `selectedPlaylistId`
 - inside the list tag of unordered list in Container, use onClick() to call this method
+### play a song when we click on it in the list of songs shown in body
+- make a new function called `playTrack()` inside `body.jsx` file
+- call this function on clicking each track in the list inside the body(go to return statement to find this list-each track is one row)
+- this method isan asynchronous function which takes many parameters as required
 
 
 
