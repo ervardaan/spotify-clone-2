@@ -217,6 +217,13 @@
 
 - this change track method is hooked to the div tag which tackles clinking previous button( so use `onClick` property on this tag so that when it gets clicked, the method is called)
 - do the same for next button and give a different parameter in both calls to the method
+- using api
+    - create a `response` variable which stores the api response from `axios` get() method
+    - use `await` for `axios.get()` method
+        - first parameter to GET request is `url` of api call
+        - second parameter is headers which contain `Authorization: Bearer <token of user>`
+    - log the response variable inside the async method to show its value we get from API
+    - now dispatch the value of playerState using `dispatch()` method inside this async func 
 
 
 
