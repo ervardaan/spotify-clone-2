@@ -239,6 +239,13 @@
         - give `url` and `body which is empty` and `headers including Authorization`
     - console log the repsonse
 - dispatch the `playerState` after the method ends
+- add to div tags such that when button of pase is clicked, the changeState() is called
+#### adding volume controls
+- create a new component called `Volume.jsx`
+- import the component into the footer's Container tag
+- In volume component, add Container's styled.div and replace div of return with Container
+- add different div in Container
+
 
 
 
