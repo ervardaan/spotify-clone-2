@@ -195,6 +195,13 @@
     - dispatch reducerCases.SET_PLAYING along with `setPlaying` variable we just defined with current playing item's properties
     - import currentPlaying in CurrentTrack component alongside token in useStateProvider call
     - now use this currentPlaying inside Container to display using smoe div tags
+### adding player controls to control music ourselves in the clone by getting data from API
+- make a new component called `PlayerControls` and add it to footer inside Container of footer
+- working in playercontrols.jsx file
+    - import styled from styled components
+    - change definition to exporting a default function PlayerControls()
+    - make a container with `styled.div`
+    - 
 
 
 
