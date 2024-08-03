@@ -124,7 +124,7 @@
         - ![image](https://github.com/user-attachments/assets/b5e0a2a0-7bf4-4609-814f-c0e0bacc8610)
     - to export all of these `playlist details` we make a constant in `constants file`
     - then we make a case in reducer cases inside `reducer.js` file and give it an action
-        - make a const `selectedPlaylist` and set i to null in `reducer.js` file
+        - make a const `selectedPlaylist` and set it to null in `reducer.js` file
         - now make a case for it( case is `SET_PLAYLIST`)
             - return `state as ...state` and `selectedPlaylist:action.selectedPlaylist`
     - now dispatch after completing the `selectedPlaylist` const decaration( we dispatch inside the `getInitialPlaylist` method)
@@ -203,7 +203,11 @@
     - make a container with `styled.div`
     - replace div in return statement with Container
     - import different icons from `react-icons`
-- working in reducer.js file 
+- working in reducer.js file
+    - create a state variable( playerState) for playing or not playing and set to false initially
+    - go to constants and declare `SET_PLAYER_STATE` constant in `reducerCases` array
+    - now make a case for it( case is `SET_PLAYER_STATE`)
+            - return `state as ...state` and `playerState:action.playerState`
 
 
 
