@@ -246,6 +246,9 @@
 - In volume component, add Container's styled.div and replace div of return with Container
 - add different div in Container
 - make an async function before return statement
+    - use api:https://developer.spotify.com/documentation/web-api/reference/set-volume-for-users-playback
+    - use put request type and give mandatory `query parameters for volume`
+    - style the volume component using Container=styled.div
 
 
 
