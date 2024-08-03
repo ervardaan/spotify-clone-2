@@ -245,6 +245,7 @@
 - import the component into the footer's Container tag
 - In volume component, add Container's styled.div and replace div of return with Container
 - add different div in Container
+- make an async function before return statement
 
 
 
