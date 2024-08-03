@@ -201,7 +201,9 @@
     - import styled from styled components
     - change definition to exporting a default function PlayerControls()
     - make a container with `styled.div`
-    - 
+    - replace div in return statement with Container
+    - import different icons from `react-icons`
+- working in reducer.js file 
 
 
 
