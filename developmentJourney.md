@@ -260,6 +260,8 @@
 - make a new function called `playTrack()` inside `body.jsx` file
 - call this function on clicking each track in the list inside the body(go to return statement to find this list-each track is one row)
 - this method isan asynchronous function which takes many parameters as required
+- call the api in a response variable which uses `axios.get() method` using `await cycle`
+- we give many parameters for this api call
 
 
 
